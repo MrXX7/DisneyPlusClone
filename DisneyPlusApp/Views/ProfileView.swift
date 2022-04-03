@@ -9,10 +9,13 @@ import SwiftUI
 
 struct ProfileView: View {
     var body: some View {
-        Text("ProfileView")
+        ZStack{
+            GradientBackgroundView()
+            Text("Profile View")
+                .foregroundColor(Color.white)
+        }
     }
 }
-
 struct ProfileView_Previews: PreviewProvider {
     static var previews: some View {
         ProfileView()

@@ -22,6 +22,8 @@ struct ContentView: View {
         switch tabViewRouter.currentPage {
         case .home:
             return AnyView(HomePage().frame(width: UIScreen.main.bounds.width))
+//            return AnyView(HomePage())
+//            return Color.orange
         case .search:
             return AnyView(SearchView())
         case .downloads:
@@ -35,7 +37,7 @@ struct ContentView: View {
         let heigth = geo.size.height / 56
         
        return HStack {
-            TabBarIcon(tabViewRouter: tabViewRouter, currentpage: .home, width: width, height: heigth, systemIconName: "house", tabName: "Home")
+           TabBarIcon(tabViewRouter: tabViewRouter, currentpage: .home, width: width, height: heigth, systemIconName: "house", tabName: "Home")
            
            TabBarIcon(tabViewRouter: tabViewRouter, currentpage: .search, width: width, height: heigth, systemIconName: "magnifyingglass", tabName: "Search")
            TabBarIcon(tabViewRouter: tabViewRouter, currentpage: .downloads, width: width, height: heigth, systemIconName: "square.and.arrow.down.fill", tabName: "Downloads")
@@ -43,7 +45,7 @@ struct ContentView: View {
         }
        .frame(width: geo.size.width, height: 60)
        .padding(.bottom, 20)
-       .background(Color.black)
+       .background(ColorConstants.darkBluishGrayColor.shadow(radius: 2))
     }
 }
 
