@@ -16,7 +16,7 @@ struct ContentView: View {
                 getTabPages()
                 getTabIcons(geo: geo)
             }
-        }
+        } .edgesIgnoringSafeArea(.all)
     }
     private func getTabPages() -> some View {
         switch tabViewRouter.currentPage {
