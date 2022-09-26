@@ -15,6 +15,7 @@
 		AD0A8D8728E1BE6400279943 /* disneyPlusAnimated.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD0A8D8628E1BE6400279943 /* disneyPlusAnimated.gif */; };
 		AD0A8D8928E1BEB100279943 /* SplashAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0A8D8828E1BEB100279943 /* SplashAnimationView.swift */; };
 		AD0A8D8B28E1C2A200279943 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0A8D8A28E1C2A200279943 /* SplashView.swift */; };
+		AD0A8D8D28E1C66800279943 /* TabViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0A8D8C28E1C66800279943 /* TabViewRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		AD0A8D8628E1BE6400279943 /* disneyPlusAnimated.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = disneyPlusAnimated.gif; sourceTree = "<group>"; };
 		AD0A8D8828E1BEB100279943 /* SplashAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashAnimationView.swift; sourceTree = "<group>"; };
 		AD0A8D8A28E1C2A200279943 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		AD0A8D8C28E1C66800279943 /* TabViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		AD0A8D7C28E1BAE200279943 /* Routers */ = {
 			isa = PBXGroup;
 			children = (
+				AD0A8D8C28E1C66800279943 /* TabViewRouter.swift */,
 			);
 			path = Routers;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				AD0A8D7028E1BA3B00279943 /* ContentView.swift in Sources */,
 				AD0A8D8B28E1C2A200279943 /* SplashView.swift in Sources */,
 				AD0A8D6E28E1BA3B00279943 /* DisneyPlusCloneApp.swift in Sources */,
+				AD0A8D8D28E1C66800279943 /* TabViewRouter.swift in Sources */,
 				AD0A8D8928E1BEB100279943 /* SplashAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
