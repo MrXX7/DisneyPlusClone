@@ -12,6 +12,8 @@
 		AD0A8D7228E1BA3D00279943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0A8D7128E1BA3D00279943 /* Assets.xcassets */; };
 		AD0A8D7528E1BA3D00279943 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0A8D7428E1BA3D00279943 /* Preview Assets.xcassets */; };
 		AD0A8D8328E1BC0800279943 /* SwiftyGif in Frameworks */ = {isa = PBXBuildFile; productRef = AD0A8D8228E1BC0800279943 /* SwiftyGif */; };
+		AD0A8D8728E1BE6400279943 /* disneyPlusAnimated.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD0A8D8628E1BE6400279943 /* disneyPlusAnimated.gif */; };
+		AD0A8D8928E1BEB100279943 /* SplashAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0A8D8828E1BEB100279943 /* SplashAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		AD0A8D6F28E1BA3B00279943 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AD0A8D7128E1BA3D00279943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD0A8D7428E1BA3D00279943 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD0A8D8628E1BE6400279943 /* disneyPlusAnimated.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = disneyPlusAnimated.gif; sourceTree = "<group>"; };
+		AD0A8D8828E1BEB100279943 /* SplashAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 		AD0A8D7B28E1BADC00279943 /* Gif */ = {
 			isa = PBXGroup;
 			children = (
+				AD0A8D8628E1BE6400279943 /* disneyPlusAnimated.gif */,
 			);
 			path = Gif;
 			sourceTree = "<group>";
@@ -113,6 +118,7 @@
 		AD0A8D8028E1BB0600279943 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AD0A8D8828E1BEB100279943 /* SplashAnimationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -181,6 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0A8D8728E1BE6400279943 /* disneyPlusAnimated.gif in Resources */,
 				AD0A8D7528E1BA3D00279943 /* Preview Assets.xcassets in Resources */,
 				AD0A8D7228E1BA3D00279943 /* Assets.xcassets in Resources */,
 			);
@@ -195,6 +202,7 @@
 			files = (
 				AD0A8D7028E1BA3B00279943 /* ContentView.swift in Sources */,
 				AD0A8D6E28E1BA3B00279943 /* DisneyPlusCloneApp.swift in Sources */,
+				AD0A8D8928E1BEB100279943 /* SplashAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
