@@ -16,6 +16,7 @@
 		AD0A8D8928E1BEB100279943 /* SplashAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0A8D8828E1BEB100279943 /* SplashAnimationView.swift */; };
 		AD0A8D8B28E1C2A200279943 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0A8D8A28E1C2A200279943 /* SplashView.swift */; };
 		AD0A8D8D28E1C66800279943 /* TabViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0A8D8C28E1C66800279943 /* TabViewRouter.swift */; };
+		AD0A8D8F28E1C73A00279943 /* TabBarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0A8D8E28E1C73A00279943 /* TabBarIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AD0A8D8828E1BEB100279943 /* SplashAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashAnimationView.swift; sourceTree = "<group>"; };
 		AD0A8D8A28E1C2A200279943 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		AD0A8D8C28E1C66800279943 /* TabViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewRouter.swift; sourceTree = "<group>"; };
+		AD0A8D8E28E1C73A00279943 /* TabBarIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		AD0A8D7F28E1BAFE00279943 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				AD0A8D8E28E1C73A00279943 /* TabBarIcon.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0A8D8F28E1C73A00279943 /* TabBarIcon.swift in Sources */,
 				AD0A8D7028E1BA3B00279943 /* ContentView.swift in Sources */,
 				AD0A8D8B28E1C2A200279943 /* SplashView.swift in Sources */,
 				AD0A8D6E28E1BA3B00279943 /* DisneyPlusCloneApp.swift in Sources */,
