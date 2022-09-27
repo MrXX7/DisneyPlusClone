@@ -45,7 +45,7 @@ private func getTabIcons(geo: GeometryProxy) -> some View {
     }
     .frame(width: geo.size.width, height: 60)
     .padding(.bottom, 20)
-    .background(Color.black)
+    .background(ColorConstants.darkBluishGrayColor.shadow(radius: 2))
 }
 }
 
