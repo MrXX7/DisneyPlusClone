@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+enum Channel: String, CaseIterable {
+    case disney
+    case pixar
+    case marvel
+    case sw
+    case ng
+    
+}
