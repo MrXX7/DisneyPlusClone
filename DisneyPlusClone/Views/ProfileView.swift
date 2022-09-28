@@ -15,6 +15,7 @@ struct ProfileView: View {
                 .foregroundColor(.white)
         }
     }
+    private var profileOptions: 
 }
 
 struct ProfileView_Previews: PreviewProvider {
