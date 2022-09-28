@@ -11,11 +11,20 @@ struct HomePage: View {
     var body: some View {
         ZStack {
             GradientBackgroundView()
-            Text("Home View")
-                .foregroundColor(.white)
+            ScrollView {
+                VStack {
+                    LogoHeaderView()
+                        .frame(maxWidth: 100)
+                        .padding(.top, 40)
+                    
+                    CarouselView()
+                    ChannelView()
+                        .frame(width: UIScreen.main.bounds.width)
+                    }
+                }
+            }
         }
     }
-}
 
 struct HomePage_Previews: PreviewProvider {
     static var previews: some View {
