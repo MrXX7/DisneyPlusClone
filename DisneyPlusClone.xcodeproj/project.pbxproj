@@ -36,6 +36,7 @@
 		AD0A8D9528E1CA1800279943 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0A8D9428E1CA1800279943 /* ProfileView.swift */; };
 		AD0A8D9728E1CAF200279943 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0A8D9628E1CAF200279943 /* SearchView.swift */; };
 		AD4C30D528E46FD000DE8521 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4C30D428E46FD000DE8521 /* MovieDetailView.swift */; };
+		AD4C30D728E475F800DE8521 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4C30D628E475F800DE8521 /* VideoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		AD0A8D9428E1CA1800279943 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		AD0A8D9628E1CAF200279943 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		AD4C30D428E46FD000DE8521 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
+		AD4C30D628E475F800DE8521 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 				AD0A8D9228E1CA0300279943 /* DownloadView.swift */,
 				AD0A8D9428E1CA1800279943 /* ProfileView.swift */,
 				AD4C30D428E46FD000DE8521 /* MovieDetailView.swift */,
+				AD4C30D628E475F800DE8521 /* VideoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				AD01083D28E313AB001C4EEF /* LogoHeaderView.swift in Sources */,
 				AD4C30D528E46FD000DE8521 /* MovieDetailView.swift in Sources */,
 				AD01083328E30B4C001C4EEF /* MovieSection.swift in Sources */,
+				AD4C30D728E475F800DE8521 /* VideoView.swift in Sources */,
 				AD01083528E30E76001C4EEF /* Channel.swift in Sources */,
 				AD01083F28E31428001C4EEF /* ChannelView.swift in Sources */,
 				AD01083728E30F40001C4EEF /* SearchCategory.swift in Sources */,

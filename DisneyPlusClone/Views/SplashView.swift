@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SplashView: View {
     @State private var isActive = false
+    
     var body: some View {
         ZStack {
             Color.black

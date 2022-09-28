@@ -81,7 +81,7 @@ struct SearchView: View {
                             .padding()
                     }
                     .sheet(item: $selectedMovie) { movie in
-                        
+                        MovieDetailView(movie: movie)
                     }
                 }
                 

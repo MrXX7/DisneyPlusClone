@@ -29,7 +29,7 @@ struct CarouselView: View {
                             .background(Color.black.opacity(0.6).blur(radius: 3.0))
                     }
                     .sheet(item: self.$selectedMovie) { movie in
-                        
+                        MovieDetailView(movie: movie)
                     }
                 }.frame(width: 400)
             }
@@ -39,6 +39,9 @@ struct CarouselView: View {
 
 struct CarouselView_Previews: PreviewProvider {
     static var previews: some View {
-        CarouselView()
+        ZStack {
+            GradientBackgroundView()
+            CarouselView()
+        }
     }
 }
